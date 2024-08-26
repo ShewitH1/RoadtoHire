@@ -900,15 +900,6 @@ opacity: 1;
 animation: slide-in-bck-right 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-/* look back at this */
-.resume-1 img:hover{
-transform: scale(1.1);
-}
-
-
-
-
-
 /* helps with overlapping */
 /* FOOTER SECTION */
 footer {
@@ -1026,15 +1017,6 @@ footer {
     
     
 }
-
-
-
-
-
-
-
-
-
 
 .footer {
     /* background-color: #2c2c2c; */
@@ -1164,15 +1146,12 @@ footer {
 
 
 /* Parallax background */
-
-
-/* Main section styles */
 .cool-sec2 {
     position: relative;
     overflow: hidden;
 }
 
-/* Common styles for sections */
+/* This is for common styles for sections */
 .cool-sec, .profile {
     opacity: 0;
     transform: translateX(-100%); /* Start off-screen */
@@ -1201,7 +1180,21 @@ footer {
     animation-delay: 1s; /* Delayed to create a staggered effect */
 }
 
+.download-resume{
+    background-color: purple;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
 
+.download-resume:hover{
+    color: #666;
+}
+
+.download-resume:active{
+    color: #333;
+}
 
 
 
