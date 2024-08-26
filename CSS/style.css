@@ -775,6 +775,10 @@ form button:hover {
 background: #bbb;
 }
 
+form button:active{
+    background: grey;
+}
+
 section img {
 margin-top: 20px;
 display: block;
